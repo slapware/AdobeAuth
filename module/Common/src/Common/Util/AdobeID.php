@@ -25,7 +25,7 @@ class AdobeID {
 	}
 	
 	function __construct() {
-		$this->setAdobenode("e546a16b291d");
+		$this->setAdobenode("e??????????");
 	}
 
 	function __destruct() {
