@@ -43,7 +43,7 @@ class WebEncRegisterControllerController extends AbstractActionController
     {
         $content = $this->getRequest()->getContent();
 //    	$content = file_get_contents('/usr/local/zend/apache2/htdocs/AdobeID/encrypt-digital-order-with-URL.xml');
-        $data = $this->getDecrypt($content, 'Vta49G8YqV5x^RNf', 'Vta49G8YqV5x^RNf');
+        $data = $this->getDecrypt($content, '??????', '??????');
         $this->xmltext = trim($data, " \t\n\r\0\x0B" );
 		$last = strrchr($data, '>');
 		$slen = strlen($data);
