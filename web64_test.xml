@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns1:OrderInfo>
+ <orderID xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">REG_OID</orderID>
+ <externalReferenceID xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+ <submissionDate xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:dateTime">2013-10-01T16:21:12.000Z</submissionDate>
+ <title xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">Web Registration</title>
+ <site xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns2="http://integration.digitalriver.com/Common/1.0" xsi:type="ns2:SiteInfo">
+  <siteID xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">harperco</siteID>
+  <siteAddress xsi:type="ns2:AddressInfo">
+   <addressID xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">65612533909</addressID>
+   <city xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">New York</city>
+   <countryA2 xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+   <country xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">US</country>
+   <countryName xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">United States</countryName>
+   <line1 xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">10 East 53rd Street</line1>
+   <line2 xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+   <line3 xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+   <locationCode xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+   <name1 xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">WEB</name1>
+   <name2 xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">HC.COM</name2>
+   <phoneNumber xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">212-207-7882</phoneNumber>
+   <postalCode xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">10022</postalCode>
+   <state xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">NY</state>
+   <email xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+   <faxPhone xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+   <companyName xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+   <phoneNumber2 xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+   <countyName xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+   <extendedAttributes xsi:type="ns2:ExtendedAttributesInfoArray"/>
+  </siteAddress>
+  <siteURL xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+ </site>
+ <offers xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns1:OfferInfoArray" xsi:nil="true"/>
+ <programID xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+ <customerID xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">289175495709</customerID>
+ <loginID xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">stephen.lapierre@harpercollins.com</loginID>
+<password>gigi30</password>
+<firstname>Stephen</firstname>
+<lastname>La Pierre</lastname>
+<region>New York</region>
+ <locale xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">en_US</locale>
+ <optIn xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xsi:type="soapenc:boolean">false</optIn>
+</ns1:OrderInfo>

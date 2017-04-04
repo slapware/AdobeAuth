@@ -1,0 +1,1466 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns1:OrderInfo xmlns:ns1="http://integration.digitalriver.com/commonRequisition/1.0">
+ <orderID xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">13167874222</orderID>
+ <externalReferenceID xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+ <submissionDate xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:dateTime">2014-05-22T03:54:43.000Z</submissionDate>
+ <title xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">New Order</title>
+ <site xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns2="http://integration.digitalriver.com/Common/1.0" xsi:type="ns2:SiteInfo">
+  <siteID xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">harperco</siteID>
+  <siteAddress xsi:type="ns2:AddressInfo">
+   <addressID xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">65612533909</addressID>
+   <city xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">Minnetonka</city>
+   <countryA2 xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+   <country xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">US</country>
+   <countryName xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">United States</countryName>
+   <line1 xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">10380 Bren Road West</line1>
+   <line2 xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+   <line3 xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+   <locationCode xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+   <name1 xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">DR</name1>
+   <name2 xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">DR</name2>
+   <phoneNumber xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">952-253-1234</phoneNumber>
+   <postalCode xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">55343</postalCode>
+   <state xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">Minnesota</state>
+   <email xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+   <faxPhone xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+   <companyName xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+   <phoneNumber2 xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+   <countyName xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+   <extendedAttributes xsi:type="ns2:ExtendedAttributesInfoArray"/>
+  </siteAddress>
+  <siteURL xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+ </site>
+ <pricing xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns1:OrderPriceInfo">
+  <total xmlns:ns3="http://integration.digitalriver.com/Common/1.0" xsi:type="ns3:MoneyInfo">
+   <currencyCode xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">USD</currencyCode>
+   <amount xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:decimal">30.95</amount>
+  </total>
+  <subtotal xmlns:ns4="http://integration.digitalriver.com/Common/1.0" xsi:type="ns4:MoneyInfo">
+   <currencyCode xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">USD</currencyCode>
+   <amount xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:decimal">30.95</amount>
+  </subtotal>
+  <tax xmlns:ns5="http://integration.digitalriver.com/Common/1.0" xsi:type="ns5:MoneyInfo">
+   <currencyCode xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">USD</currencyCode>
+   <amount xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:decimal">0.00</amount>
+  </tax>
+  <productTax xmlns:ns6="http://integration.digitalriver.com/Common/1.0" xsi:type="ns6:MoneyInfo">
+   <currencyCode xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">USD</currencyCode>
+   <amount xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:decimal">0.00</amount>
+  </productTax>
+  <shippingTax xmlns:ns7="http://integration.digitalriver.com/Common/1.0" xsi:type="ns7:MoneyInfo" xsi:nil="true"/>
+  <shipping xmlns:ns8="http://integration.digitalriver.com/Common/1.0" xsi:type="ns8:MoneyInfo" xsi:nil="true"/>
+  <incentive xmlns:ns9="http://integration.digitalriver.com/Common/1.0" xsi:type="ns9:MoneyInfo" xsi:nil="true"/>
+  <shippingIncentive xmlns:ns10="http://integration.digitalriver.com/Common/1.0" xsi:type="ns10:MoneyInfo" xsi:nil="true"/>
+  <nonTaxableFees xmlns:ns11="http://integration.digitalriver.com/Common/1.0" xsi:type="ns11:MoneyInfo" xsi:nil="true"/>
+  <taxableFees xmlns:ns12="http://integration.digitalriver.com/Common/1.0" xsi:type="ns12:MoneyInfo" xsi:nil="true"/>
+  <taxOnTaxableFees xmlns:ns13="http://integration.digitalriver.com/Common/1.0" xsi:type="ns13:MoneyInfo" xsi:nil="true"/>
+  <exchangeRate xmlns:ns14="http://integration.digitalriver.com/Common/1.0" xsi:type="ns14:MoneyInfo" xsi:nil="true"/>
+ </pricing>
+ <paymentInfos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns1:PaymentInformationInfoArray">
+  <paymentInfo xsi:type="ns1:PaymentInformationInfo">
+   <accountID xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+   <authorizationID xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+   <cardType xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+   <customerEmail xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">guytos03@yahoo.com</customerEmail>
+   <cardNumber xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+   <cardExpirationMonth xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+   <cardExpirationYear xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+   <customerPO xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+   <ccIssueCode xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+   <ccIssueMonth xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+   <ccIssueYear xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+   <securityIndicator xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+   <routingNumber xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+   <vatNumber xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+   <customerLastName xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">WHYTE- GUYTON</customerLastName>
+   <customerFirstName xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">SUSAN</customerFirstName>
+   <paymentAmount xmlns:ns15="http://integration.digitalriver.com/Common/1.0" xsi:type="ns15:MoneyInfo">
+    <currencyCode xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">USD</currencyCode>
+    <amount xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:decimal">30.95</amount>
+   </paymentAmount>
+   <paymentMethodName xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">visa</paymentMethodName>
+   <billingAddress xmlns:ns16="http://integration.digitalriver.com/Common/1.0" xsi:type="ns16:AddressInfo">
+    <addressID xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">100323317808</addressID>
+    <city xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">atlanta</city>
+    <countryA2 xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <country xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">US</country>
+    <countryName xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">United States</countryName>
+    <line1 xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">3752 quail hollow trail trail</line1>
+    <line2 xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <line3 xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <locationCode xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <name1 xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">susan</name1>
+    <name2 xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">whyte- guyton</name2>
+    <phoneNumber xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">770-349-9205</phoneNumber>
+    <postalCode xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">30039</postalCode>
+    <state xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">GA</state>
+    <email xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">guytos03@yahoo.com</email>
+    <faxPhone xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <companyName xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <phoneNumber2 xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <countyName xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <extendedAttributes xsi:type="ns16:ExtendedAttributesInfoArray">
+     <item xsi:type="ns16:ExtendedAttributesInfo">
+      <name xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">payerIdentifier</name>
+      <value xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">5215ADA669670F150EBD8E3B4F87DDCA031B91A110D24FE3457172291FAB0A23</value>
+      <valueDataType xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">string</valueDataType>
+     </item>
+    </extendedAttributes>
+   </billingAddress>
+   <extendedAttributes xmlns:ns17="http://integration.digitalriver.com/Common/1.0" xsi:type="ns17:ExtendedAttributesInfoArray">
+    <item xsi:type="ns17:ExtendedAttributesInfo">
+     <name xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">isPinnable</name>
+     <value xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">false</value>
+     <valueDataType xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">string</valueDataType>
+    </item>
+    <item xsi:type="ns17:ExtendedAttributesInfo">
+     <name xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">INSTALLMENT_AMOUNT</name>
+     <value xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">0</value>
+     <valueDataType xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">string</valueDataType>
+    </item>
+    <item xsi:type="ns17:ExtendedAttributesInfo">
+     <name xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">billingOptionID</name>
+     <value xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">1083042408</value>
+     <valueDataType xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">string</valueDataType>
+    </item>
+    <item xsi:type="ns17:ExtendedAttributesInfo">
+     <name xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">payerIdentifier</name>
+     <value xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">5215ADA669670F150EBD8E3B4F87DDCA031B91A110D24FE3457172291FAB0A23</value>
+     <valueDataType xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">string</valueDataType>
+    </item>
+    <item xsi:type="ns17:ExtendedAttributesInfo">
+     <name xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">IS_INSTALLMENT_PAYMENT</name>
+     <value xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">false</value>
+     <valueDataType xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">string</valueDataType>
+    </item>
+    <item xsi:type="ns17:ExtendedAttributesInfo">
+     <name xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">cardType</name>
+     <value xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">Visa</value>
+     <valueDataType xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">string</valueDataType>
+    </item>
+    <item xsi:type="ns17:ExtendedAttributesInfo">
+     <name xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">SELECTED_INSTALLMENT</name>
+     <value xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">0</value>
+     <valueDataType xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">string</valueDataType>
+    </item>
+   </extendedAttributes>
+  </paymentInfo>
+ </paymentInfos>
+ <lineItems xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns1:LineItemInfoArray">
+  <item xsi:type="ns1:LineItemInfo">
+   <lineItemID xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">12520377422</lineItemID>
+   <externalReferenceID xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+   <transactionDescription xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">Order Notification</transactionDescription>
+   <quantity xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:integer">1</quantity>
+   <preOrder xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xsi:type="soapenc:boolean">true</preOrder>
+   <product xmlns:ns18="http://integration.digitalriver.com/Common/1.0" xsi:type="ns18:ProductKey">
+    <productID xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">293329500</productID>
+    <externalReferenceID xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">9780061762604</externalReferenceID>
+    <companyID xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">harperco</companyID>
+    <locale xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">en_US</locale>
+   </product>
+   <productInfo xsi:type="ns1:ProductDataInfo">
+    <productDataID xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">5247843400</productDataID>
+    <mfrPartNumber xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">EC17573BC600637FE0430602390AA401</mfrPartNumber>
+    <shipperPartNumber xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <sku xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">9780061762604</sku>
+    <name xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">A Dangerous Love</name>
+    <platform xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">eBook</platform>
+    <year xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <seats xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <companyID xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">harperco</companyID>
+    <exportCountry xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <manufactureCountry xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">US</manufactureCountry>
+    <harmonizeCode xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <eccn xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">EAR99</eccn>
+    <licenseException xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">AGR</licenseException>
+    <ccats xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <extendedAttributes xmlns:ns19="http://integration.digitalriver.com/Common/1.0" xsi:type="ns19:ExtendedAttributesInfoArray">
+     <item xsi:type="ns19:ExtendedAttributesInfo">
+      <name xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">platform</name>
+      <value xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">eBook</value>
+      <valueDataType xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">string</valueDataType>
+     </item>
+     <item xsi:type="ns19:ExtendedAttributesInfo">
+      <name xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">Format</name>
+      <value xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">DRM ebook</value>
+      <valueDataType xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">string</valueDataType>
+     </item>
+     <item xsi:type="ns19:ExtendedAttributesInfo">
+      <name xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">releaseDate</name>
+      <value xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">Tue Mar 17 00:00:00 CDT 2009</value>
+      <valueDataType xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">string</valueDataType>
+     </item>
+     <item xsi:type="ns19:ExtendedAttributesInfo">
+      <name xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">originalIsOrderable</name>
+      <value xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">true</value>
+      <valueDataType xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">string</valueDataType>
+     </item>
+     <item xsi:type="ns19:ExtendedAttributesInfo">
+      <name xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">ONIX</name>
+      <value xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">HarperCollins Publishers / 20140512 / Select Inclusive eBook Agency Master Version 1.0</value>
+      <valueDataType xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">string</valueDataType>
+     </item>
+     <item xsi:type="ns19:ExtendedAttributesInfo">
+      <name xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">Imprint</name>
+      <value xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">HarperCollins e-books</value>
+      <valueDataType xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">string</valueDataType>
+     </item>
+     <item xsi:type="ns19:ExtendedAttributesInfo">
+      <name xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">Author</name>
+      <value xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">Sabrina Jeffries</value>
+      <valueDataType xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">string</valueDataType>
+     </item>
+     <item xsi:type="ns19:ExtendedAttributesInfo">
+      <name xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">preorderEnabled</name>
+      <value xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">false</value>
+      <valueDataType xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">string</valueDataType>
+     </item>
+     <item xsi:type="ns19:ExtendedAttributesInfo">
+      <name xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">auditEmailRecipient</name>
+      <value xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">demo@digiplug.com</value>
+      <valueDataType xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">string</valueDataType>
+     </item>
+     <item xsi:type="ns19:ExtendedAttributesInfo">
+      <name xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">originalIsViewable</name>
+      <value xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">true</value>
+      <valueDataType xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">string</valueDataType>
+     </item>
+     <item xsi:type="ns19:ExtendedAttributesInfo">
+      <name xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">auditNumDays</name>
+      <value xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">3</value>
+      <valueDataType xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">string</valueDataType>
+     </item>
+    </extendedAttributes>
+   </productInfo>
+   <lineItemDigitalInfoList xsi:type="ns1:LineItemDigitalInfoArray"/>
+   <catalogID xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">18839800</catalogID>
+   <comments xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+   <shipToAddress xmlns:ns20="http://integration.digitalriver.com/Common/1.0" xsi:type="ns20:AddressInfo">
+    <addressID xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">100323317708</addressID>
+    <city xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">atlanta</city>
+    <countryA2 xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <country xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">US</country>
+    <countryName xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">United States</countryName>
+    <line1 xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">3752 quail hollow trail trail</line1>
+    <line2 xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <line3 xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <locationCode xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <name1 xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">susan</name1>
+    <name2 xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">whyte- guyton</name2>
+    <phoneNumber xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">770-349-9205</phoneNumber>
+    <postalCode xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">30039</postalCode>
+    <state xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">GA</state>
+    <email xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">guytos03@yahoo.com</email>
+    <faxPhone xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <companyName xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <phoneNumber2 xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <countyName xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <extendedAttributes xsi:type="ns20:ExtendedAttributesInfoArray"/>
+   </shipToAddress>
+   <shippingInstructions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+   <requestedShipDate xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:dateTime" xsi:nil="true"/>
+   <shippingMethodName xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+   <trackingUrl xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:anyURI" xsi:nil="true"/>
+   <trackingNumber xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+   <pricing xsi:type="ns1:LineItemPriceInfo">
+    <unitPrice xmlns:ns21="http://integration.digitalriver.com/Common/1.0" xsi:type="ns21:MoneyInfo">
+     <currencyCode xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">USD</currencyCode>
+     <amount xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:decimal">5.99</amount>
+    </unitPrice>
+    <listPrice xmlns:ns22="http://integration.digitalriver.com/Common/1.0" xsi:type="ns22:MoneyInfo">
+     <currencyCode xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">USD</currencyCode>
+     <amount xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:decimal">5.99</amount>
+    </listPrice>
+    <distributorPrice xmlns:ns23="http://integration.digitalriver.com/Common/1.0" xsi:type="ns23:MoneyInfo" xsi:nil="true"/>
+    <pricePerQty xmlns:ns24="http://integration.digitalriver.com/Common/1.0" xsi:type="ns24:MoneyInfo">
+     <currencyCode xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">USD</currencyCode>
+     <amount xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:decimal">5.99</amount>
+    </pricePerQty>
+    <tax xmlns:ns25="http://integration.digitalriver.com/Common/1.0" xsi:type="ns25:MoneyInfo">
+     <currencyCode xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">USD</currencyCode>
+     <amount xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:decimal">0.00</amount>
+    </tax>
+    <productTax xmlns:ns26="http://integration.digitalriver.com/Common/1.0" xsi:type="ns26:MoneyInfo">
+     <currencyCode xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">USD</currencyCode>
+     <amount xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:decimal">0.00</amount>
+    </productTax>
+    <shippingTax xmlns:ns27="http://integration.digitalriver.com/Common/1.0" xsi:type="ns27:MoneyInfo">
+     <currencyCode xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">USD</currencyCode>
+     <amount xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:decimal">0.00</amount>
+    </shippingTax>
+    <shipping xmlns:ns28="http://integration.digitalriver.com/Common/1.0" xsi:type="ns28:MoneyInfo" xsi:nil="true"/>
+    <handling xmlns:ns29="http://integration.digitalriver.com/Common/1.0" xsi:type="ns29:MoneyInfo">
+     <currencyCode xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">USD</currencyCode>
+     <amount xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:decimal">0.00</amount>
+    </handling>
+    <incentive xmlns:ns30="http://integration.digitalriver.com/Common/1.0" xsi:type="ns30:MoneyInfo" xsi:nil="true"/>
+    <reqLevelIncentivePerQuantity xmlns:ns31="http://integration.digitalriver.com/Common/1.0" xsi:type="ns31:MoneyInfo" xsi:nil="true"/>
+    <lineItemLevelIncentivePerQuantity xmlns:ns32="http://integration.digitalriver.com/Common/1.0" xsi:type="ns32:MoneyInfo" xsi:nil="true"/>
+    <taxableFees xmlns:ns33="http://integration.digitalriver.com/Common/1.0" xsi:type="ns33:MoneyInfo" xsi:nil="true"/>
+    <taxOnTaxableFees xmlns:ns34="http://integration.digitalriver.com/Common/1.0" xsi:type="ns34:MoneyInfo" xsi:nil="true"/>
+    <nonTaxableFees xmlns:ns35="http://integration.digitalriver.com/Common/1.0" xsi:type="ns35:MoneyInfo" xsi:nil="true"/>
+    <recurringFee xmlns:ns36="http://integration.digitalriver.com/Common/1.0" xsi:type="ns36:MoneyInfo" xsi:nil="true"/>
+    <shippingBeforeDiscount xmlns:ns37="http://integration.digitalriver.com/Common/1.0" xsi:type="ns37:MoneyInfo" xsi:nil="true"/>
+    <lineItemFees xsi:type="ns1:FeePriceInfoArray"/>
+   </pricing>
+   <lineItemTaxList xsi:type="ns1:LineItemTaxListInfo">
+    <typeOfTax xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <primaryCurrencyCode xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">USD</primaryCurrencyCode>
+    <federalTaxType xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <territoryTaxType xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <stateTaxType xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">US</stateTaxType>
+    <countyTaxType xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">US</countyTaxType>
+    <cityTaxType xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <secondaryStateTaxType xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <secondaryCountyTaxType xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <secondaryCityTaxType xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <districtTaxType xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <zeroRateIndicator xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <jurisdictionType xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <countryOfJurisdictionCode xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <territoryOfJurisdictionCode xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <stateOfJurisdiction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">GEORGIA</stateOfJurisdiction>
+    <countyCodeOfJurisdiction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">DEKALB</countyCodeOfJurisdiction>
+    <countyNameOfJurisdiction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">GA - DEKALB METROPOLITAN A</countyNameOfJurisdiction>
+    <cityOfJurisdiction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <zipCodeOfJurisdiction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">30039</zipCodeOfJurisdiction>
+    <zipCodeExtensionOfJurisdiction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <geoCodeOfJurisdiction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <secStateOfJurisdiction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <secCountyCodeOfJurisdiction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <secCountyNameOfJurisdiction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <secCityOfJurisdiction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <secZipCodeOfJurisdiction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <secZipCodeExtensionOfJurisdiction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <secGeoCodeOfJurisdiction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <calculatedTaxAmountTotal xmlns:ns38="http://integration.digitalriver.com/Common/1.0" xsi:type="ns38:MoneyInfo">
+     <currencyCode xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">USD</currencyCode>
+     <amount xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:decimal">0.00</amount>
+    </calculatedTaxAmountTotal>
+    <calculatedTaxAmountCountry xmlns:ns39="http://integration.digitalriver.com/Common/1.0" xsi:type="ns39:MoneyInfo" xsi:nil="true"/>
+    <calculatedTaxAmountTerritory xmlns:ns40="http://integration.digitalriver.com/Common/1.0" xsi:type="ns40:MoneyInfo" xsi:nil="true"/>
+    <calculatedTaxAmountState xmlns:ns41="http://integration.digitalriver.com/Common/1.0" xsi:type="ns41:MoneyInfo">
+     <currencyCode xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">USD</currencyCode>
+     <amount xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:decimal">0.00</amount>
+    </calculatedTaxAmountState>
+    <calculatedTaxAmountCounty xmlns:ns42="http://integration.digitalriver.com/Common/1.0" xsi:type="ns42:MoneyInfo">
+     <currencyCode xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">USD</currencyCode>
+     <amount xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:decimal">0.00</amount>
+    </calculatedTaxAmountCounty>
+    <calculatedTaxAmountCity xmlns:ns43="http://integration.digitalriver.com/Common/1.0" xsi:type="ns43:MoneyInfo" xsi:nil="true"/>
+    <calculatedTaxAmountSecState xmlns:ns44="http://integration.digitalriver.com/Common/1.0" xsi:type="ns44:MoneyInfo" xsi:nil="true"/>
+    <calculatedTaxAmountSecCounty xmlns:ns45="http://integration.digitalriver.com/Common/1.0" xsi:type="ns45:MoneyInfo" xsi:nil="true"/>
+    <calculatedTaxAmountSecCity xmlns:ns46="http://integration.digitalriver.com/Common/1.0" xsi:type="ns46:MoneyInfo" xsi:nil="true"/>
+    <calculatedTaxAmountDistrict xmlns:ns47="http://integration.digitalriver.com/Common/1.0" xsi:type="ns47:MoneyInfo" xsi:nil="true"/>
+    <calculatedTaxAmountPis xmlns:ns48="http://integration.digitalriver.com/Common/1.0" xsi:type="ns48:MoneyInfo" xsi:nil="true"/>
+    <calculatedTaxAmountCofins xmlns:ns49="http://integration.digitalriver.com/Common/1.0" xsi:type="ns49:MoneyInfo" xsi:nil="true"/>
+    <calculatedTaxAmountCide xmlns:ns50="http://integration.digitalriver.com/Common/1.0" xsi:type="ns50:MoneyInfo" xsi:nil="true"/>
+    <calculatedTaxAmountIss xmlns:ns51="http://integration.digitalriver.com/Common/1.0" xsi:type="ns51:MoneyInfo" xsi:nil="true"/>
+    <calculatedTaxAmountIrrf xmlns:ns52="http://integration.digitalriver.com/Common/1.0" xsi:type="ns52:MoneyInfo" xsi:nil="true"/>
+    <sellerVatNumber xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <buyerVatNumber xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <commodityCode xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">55111502.120</commodityCode>
+    <taxCompanyID xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">HRPR_CLNS</taxCompanyID>
+    <stateTaxRate xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:decimal">0.0</stateTaxRate>
+    <secStateTaxRate xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:decimal">0.0</secStateTaxRate>
+    <countyTaxRate xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:decimal">0.0</countyTaxRate>
+    <secCountyTaxRate xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:decimal">0.0</secCountyTaxRate>
+    <cityTaxRate xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:decimal">0.0</cityTaxRate>
+    <secCityTaxRate xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:decimal">0.0</secCityTaxRate>
+    <countryTaxRate xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:decimal">0.0</countryTaxRate>
+    <taxDate xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:dateTime">2014-05-22T03:54:37.056Z</taxDate>
+   </lineItemTaxList>
+   <taxExempt xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xsi:type="soapenc:boolean">false</taxExempt>
+   <offers xsi:type="ns1:OfferInfoArray" xsi:nil="true"/>
+   <currentLineItemState xsi:type="ns1:LineItemState">
+    <Open xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <InProcess xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">InProcess</InProcess>
+    <Shipped xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <Completed xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <Preordered xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <Refunded xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <Canceled xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+   </currentLineItemState>
+   <fulfillmentInfo xsi:type="ns1:FulfillmentInfo" xsi:nil="true"/>
+   <replacementInfo xsi:type="ns1:ReplacementInfo" xsi:nil="true"/>
+   <downloads xsi:type="ns1:Downloads" xsi:nil="true"/>
+   <extendedAttributes xmlns:ns53="http://integration.digitalriver.com/Common/1.0" xsi:type="ns53:ExtendedAttributesInfoArray">
+    <item xsi:type="ns53:ExtendedAttributesInfo">
+     <name xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">hcstoreID</name>
+     <value xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">Avon</value>
+     <valueDataType xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">string</valueDataType>
+    </item>
+    <item xsi:type="ns53:ExtendedAttributesInfo">
+     <name xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">DGPDownloadURL</name>
+     <value xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">http://delivery.dscebook.digiplug.com/delivery/1/22110d970a3e0501313a1f2d15d97dca/A_Dangerous_Love.acsm</value>
+     <valueDataType xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">string</valueDataType>
+    </item>
+   </extendedAttributes>
+   <combinationProductLineItem xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xsi:type="soapenc:boolean">false</combinationProductLineItem>
+   <componentLineItemInfoArray xsi:type="ns1:LineItemInfoArray" xsi:nil="true"/>
+  </item>
+  <item xsi:type="ns1:LineItemInfo">
+   <lineItemID xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">12520399922</lineItemID>
+   <externalReferenceID xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+   <transactionDescription xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">Order Notification</transactionDescription>
+   <quantity xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:integer">1</quantity>
+   <preOrder xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xsi:type="soapenc:boolean">true</preOrder>
+   <product xmlns:ns54="http://integration.digitalriver.com/Common/1.0" xsi:type="ns54:ProductKey">
+    <productID xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">293409800</productID>
+    <externalReferenceID xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">9780061762628</externalReferenceID>
+    <companyID xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">harperco</companyID>
+    <locale xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">en_US</locale>
+   </product>
+   <productInfo xsi:type="ns1:ProductDataInfo">
+    <productDataID xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">5247736500</productDataID>
+    <mfrPartNumber xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">EC175888A0B763F7E0430602390A5B06</mfrPartNumber>
+    <shipperPartNumber xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <sku xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">9780061762628</sku>
+    <name xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">A Duke of Her Own</name>
+    <platform xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">eBook</platform>
+    <year xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <seats xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <companyID xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">harperco</companyID>
+    <exportCountry xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <manufactureCountry xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">US</manufactureCountry>
+    <harmonizeCode xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <eccn xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">EAR99</eccn>
+    <licenseException xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">AGR</licenseException>
+    <ccats xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <extendedAttributes xmlns:ns55="http://integration.digitalriver.com/Common/1.0" xsi:type="ns55:ExtendedAttributesInfoArray">
+     <item xsi:type="ns55:ExtendedAttributesInfo">
+      <name xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">platform</name>
+      <value xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">eBook</value>
+      <valueDataType xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">string</valueDataType>
+     </item>
+     <item xsi:type="ns55:ExtendedAttributesInfo">
+      <name xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">Format</name>
+      <value xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">DRM ebook</value>
+      <valueDataType xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">string</valueDataType>
+     </item>
+     <item xsi:type="ns55:ExtendedAttributesInfo">
+      <name xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">releaseDate</name>
+      <value xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">Tue Mar 17 00:00:00 CDT 2009</value>
+      <valueDataType xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">string</valueDataType>
+     </item>
+     <item xsi:type="ns55:ExtendedAttributesInfo">
+      <name xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">originalIsOrderable</name>
+      <value xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">true</value>
+      <valueDataType xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">string</valueDataType>
+     </item>
+     <item xsi:type="ns55:ExtendedAttributesInfo">
+      <name xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">ONIX</name>
+      <value xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">HarperCollins Publishers / 20140512 / Select Inclusive eBook Agency Master Version 1.0</value>
+      <valueDataType xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">string</valueDataType>
+     </item>
+     <item xsi:type="ns55:ExtendedAttributesInfo">
+      <name xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">Imprint</name>
+      <value xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">HarperCollins e-books</value>
+      <valueDataType xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">string</valueDataType>
+     </item>
+     <item xsi:type="ns55:ExtendedAttributesInfo">
+      <name xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">Author</name>
+      <value xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">Lorraine Heath</value>
+      <valueDataType xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">string</valueDataType>
+     </item>
+     <item xsi:type="ns55:ExtendedAttributesInfo">
+      <name xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">preorderEnabled</name>
+      <value xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">false</value>
+      <valueDataType xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">string</valueDataType>
+     </item>
+     <item xsi:type="ns55:ExtendedAttributesInfo">
+      <name xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">auditEmailRecipient</name>
+      <value xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">demo@digiplug.com</value>
+      <valueDataType xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">string</valueDataType>
+     </item>
+     <item xsi:type="ns55:ExtendedAttributesInfo">
+      <name xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">originalIsViewable</name>
+      <value xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">true</value>
+      <valueDataType xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">string</valueDataType>
+     </item>
+     <item xsi:type="ns55:ExtendedAttributesInfo">
+      <name xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">auditNumDays</name>
+      <value xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">3</value>
+      <valueDataType xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">string</valueDataType>
+     </item>
+    </extendedAttributes>
+   </productInfo>
+   <lineItemDigitalInfoList xsi:type="ns1:LineItemDigitalInfoArray"/>
+   <catalogID xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">18839800</catalogID>
+   <comments xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+   <shipToAddress xmlns:ns56="http://integration.digitalriver.com/Common/1.0" xsi:type="ns56:AddressInfo">
+    <addressID xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">100323317708</addressID>
+    <city xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">atlanta</city>
+    <countryA2 xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <country xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">US</country>
+    <countryName xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">United States</countryName>
+    <line1 xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">3752 quail hollow trail trail</line1>
+    <line2 xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <line3 xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <locationCode xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <name1 xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">susan</name1>
+    <name2 xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">whyte- guyton</name2>
+    <phoneNumber xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">770-349-9205</phoneNumber>
+    <postalCode xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">30039</postalCode>
+    <state xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">GA</state>
+    <email xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">guytos03@yahoo.com</email>
+    <faxPhone xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <companyName xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <phoneNumber2 xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <countyName xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <extendedAttributes xsi:type="ns56:ExtendedAttributesInfoArray"/>
+   </shipToAddress>
+   <shippingInstructions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+   <requestedShipDate xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:dateTime" xsi:nil="true"/>
+   <shippingMethodName xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+   <trackingUrl xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:anyURI" xsi:nil="true"/>
+   <trackingNumber xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+   <pricing xsi:type="ns1:LineItemPriceInfo">
+    <unitPrice xmlns:ns57="http://integration.digitalriver.com/Common/1.0" xsi:type="ns57:MoneyInfo">
+     <currencyCode xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">USD</currencyCode>
+     <amount xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:decimal">6.99</amount>
+    </unitPrice>
+    <listPrice xmlns:ns58="http://integration.digitalriver.com/Common/1.0" xsi:type="ns58:MoneyInfo">
+     <currencyCode xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">USD</currencyCode>
+     <amount xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:decimal">6.99</amount>
+    </listPrice>
+    <distributorPrice xmlns:ns59="http://integration.digitalriver.com/Common/1.0" xsi:type="ns59:MoneyInfo" xsi:nil="true"/>
+    <pricePerQty xmlns:ns60="http://integration.digitalriver.com/Common/1.0" xsi:type="ns60:MoneyInfo">
+     <currencyCode xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">USD</currencyCode>
+     <amount xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:decimal">6.99</amount>
+    </pricePerQty>
+    <tax xmlns:ns61="http://integration.digitalriver.com/Common/1.0" xsi:type="ns61:MoneyInfo">
+     <currencyCode xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">USD</currencyCode>
+     <amount xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:decimal">0.00</amount>
+    </tax>
+    <productTax xmlns:ns62="http://integration.digitalriver.com/Common/1.0" xsi:type="ns62:MoneyInfo">
+     <currencyCode xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">USD</currencyCode>
+     <amount xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:decimal">0.00</amount>
+    </productTax>
+    <shippingTax xmlns:ns63="http://integration.digitalriver.com/Common/1.0" xsi:type="ns63:MoneyInfo">
+     <currencyCode xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">USD</currencyCode>
+     <amount xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:decimal">0.00</amount>
+    </shippingTax>
+    <shipping xmlns:ns64="http://integration.digitalriver.com/Common/1.0" xsi:type="ns64:MoneyInfo" xsi:nil="true"/>
+    <handling xmlns:ns65="http://integration.digitalriver.com/Common/1.0" xsi:type="ns65:MoneyInfo">
+     <currencyCode xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">USD</currencyCode>
+     <amount xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:decimal">0.00</amount>
+    </handling>
+    <incentive xmlns:ns66="http://integration.digitalriver.com/Common/1.0" xsi:type="ns66:MoneyInfo" xsi:nil="true"/>
+    <reqLevelIncentivePerQuantity xmlns:ns67="http://integration.digitalriver.com/Common/1.0" xsi:type="ns67:MoneyInfo" xsi:nil="true"/>
+    <lineItemLevelIncentivePerQuantity xmlns:ns68="http://integration.digitalriver.com/Common/1.0" xsi:type="ns68:MoneyInfo" xsi:nil="true"/>
+    <taxableFees xmlns:ns69="http://integration.digitalriver.com/Common/1.0" xsi:type="ns69:MoneyInfo" xsi:nil="true"/>
+    <taxOnTaxableFees xmlns:ns70="http://integration.digitalriver.com/Common/1.0" xsi:type="ns70:MoneyInfo" xsi:nil="true"/>
+    <nonTaxableFees xmlns:ns71="http://integration.digitalriver.com/Common/1.0" xsi:type="ns71:MoneyInfo" xsi:nil="true"/>
+    <recurringFee xmlns:ns72="http://integration.digitalriver.com/Common/1.0" xsi:type="ns72:MoneyInfo" xsi:nil="true"/>
+    <shippingBeforeDiscount xmlns:ns73="http://integration.digitalriver.com/Common/1.0" xsi:type="ns73:MoneyInfo" xsi:nil="true"/>
+    <lineItemFees xsi:type="ns1:FeePriceInfoArray"/>
+   </pricing>
+   <lineItemTaxList xsi:type="ns1:LineItemTaxListInfo">
+    <typeOfTax xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <primaryCurrencyCode xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">USD</primaryCurrencyCode>
+    <federalTaxType xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <territoryTaxType xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <stateTaxType xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">US</stateTaxType>
+    <countyTaxType xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">US</countyTaxType>
+    <cityTaxType xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <secondaryStateTaxType xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <secondaryCountyTaxType xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <secondaryCityTaxType xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <districtTaxType xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <zeroRateIndicator xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <jurisdictionType xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <countryOfJurisdictionCode xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <territoryOfJurisdictionCode xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <stateOfJurisdiction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">GEORGIA</stateOfJurisdiction>
+    <countyCodeOfJurisdiction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">DEKALB</countyCodeOfJurisdiction>
+    <countyNameOfJurisdiction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">GA - DEKALB METROPOLITAN A</countyNameOfJurisdiction>
+    <cityOfJurisdiction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <zipCodeOfJurisdiction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">30039</zipCodeOfJurisdiction>
+    <zipCodeExtensionOfJurisdiction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <geoCodeOfJurisdiction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <secStateOfJurisdiction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <secCountyCodeOfJurisdiction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <secCountyNameOfJurisdiction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <secCityOfJurisdiction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <secZipCodeOfJurisdiction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <secZipCodeExtensionOfJurisdiction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <secGeoCodeOfJurisdiction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <calculatedTaxAmountTotal xmlns:ns74="http://integration.digitalriver.com/Common/1.0" xsi:type="ns74:MoneyInfo">
+     <currencyCode xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">USD</currencyCode>
+     <amount xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:decimal">0.00</amount>
+    </calculatedTaxAmountTotal>
+    <calculatedTaxAmountCountry xmlns:ns75="http://integration.digitalriver.com/Common/1.0" xsi:type="ns75:MoneyInfo" xsi:nil="true"/>
+    <calculatedTaxAmountTerritory xmlns:ns76="http://integration.digitalriver.com/Common/1.0" xsi:type="ns76:MoneyInfo" xsi:nil="true"/>
+    <calculatedTaxAmountState xmlns:ns77="http://integration.digitalriver.com/Common/1.0" xsi:type="ns77:MoneyInfo">
+     <currencyCode xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">USD</currencyCode>
+     <amount xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:decimal">0.00</amount>
+    </calculatedTaxAmountState>
+    <calculatedTaxAmountCounty xmlns:ns78="http://integration.digitalriver.com/Common/1.0" xsi:type="ns78:MoneyInfo">
+     <currencyCode xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">USD</currencyCode>
+     <amount xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:decimal">0.00</amount>
+    </calculatedTaxAmountCounty>
+    <calculatedTaxAmountCity xmlns:ns79="http://integration.digitalriver.com/Common/1.0" xsi:type="ns79:MoneyInfo" xsi:nil="true"/>
+    <calculatedTaxAmountSecState xmlns:ns80="http://integration.digitalriver.com/Common/1.0" xsi:type="ns80:MoneyInfo" xsi:nil="true"/>
+    <calculatedTaxAmountSecCounty xmlns:ns81="http://integration.digitalriver.com/Common/1.0" xsi:type="ns81:MoneyInfo" xsi:nil="true"/>
+    <calculatedTaxAmountSecCity xmlns:ns82="http://integration.digitalriver.com/Common/1.0" xsi:type="ns82:MoneyInfo" xsi:nil="true"/>
+    <calculatedTaxAmountDistrict xmlns:ns83="http://integration.digitalriver.com/Common/1.0" xsi:type="ns83:MoneyInfo" xsi:nil="true"/>
+    <calculatedTaxAmountPis xmlns:ns84="http://integration.digitalriver.com/Common/1.0" xsi:type="ns84:MoneyInfo" xsi:nil="true"/>
+    <calculatedTaxAmountCofins xmlns:ns85="http://integration.digitalriver.com/Common/1.0" xsi:type="ns85:MoneyInfo" xsi:nil="true"/>
+    <calculatedTaxAmountCide xmlns:ns86="http://integration.digitalriver.com/Common/1.0" xsi:type="ns86:MoneyInfo" xsi:nil="true"/>
+    <calculatedTaxAmountIss xmlns:ns87="http://integration.digitalriver.com/Common/1.0" xsi:type="ns87:MoneyInfo" xsi:nil="true"/>
+    <calculatedTaxAmountIrrf xmlns:ns88="http://integration.digitalriver.com/Common/1.0" xsi:type="ns88:MoneyInfo" xsi:nil="true"/>
+    <sellerVatNumber xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <buyerVatNumber xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <commodityCode xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">55111502.120</commodityCode>
+    <taxCompanyID xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">HRPR_CLNS</taxCompanyID>
+    <stateTaxRate xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:decimal">0.0</stateTaxRate>
+    <secStateTaxRate xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:decimal">0.0</secStateTaxRate>
+    <countyTaxRate xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:decimal">0.0</countyTaxRate>
+    <secCountyTaxRate xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:decimal">0.0</secCountyTaxRate>
+    <cityTaxRate xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:decimal">0.0</cityTaxRate>
+    <secCityTaxRate xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:decimal">0.0</secCityTaxRate>
+    <countryTaxRate xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:decimal">0.0</countryTaxRate>
+    <taxDate xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:dateTime">2014-05-22T03:54:37.056Z</taxDate>
+   </lineItemTaxList>
+   <taxExempt xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xsi:type="soapenc:boolean">false</taxExempt>
+   <offers xsi:type="ns1:OfferInfoArray" xsi:nil="true"/>
+   <currentLineItemState xsi:type="ns1:LineItemState">
+    <Open xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <InProcess xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">InProcess</InProcess>
+    <Shipped xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <Completed xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <Preordered xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <Refunded xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <Canceled xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+   </currentLineItemState>
+   <fulfillmentInfo xsi:type="ns1:FulfillmentInfo" xsi:nil="true"/>
+   <replacementInfo xsi:type="ns1:ReplacementInfo" xsi:nil="true"/>
+   <downloads xsi:type="ns1:Downloads" xsi:nil="true"/>
+   <extendedAttributes xmlns:ns89="http://integration.digitalriver.com/Common/1.0" xsi:type="ns89:ExtendedAttributesInfoArray">
+    <item xsi:type="ns89:ExtendedAttributesInfo">
+     <name xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">hcstoreID</name>
+     <value xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">Avon</value>
+     <valueDataType xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">string</valueDataType>
+    </item>
+    <item xsi:type="ns89:ExtendedAttributesInfo">
+     <name xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">DGPDownloadURL</name>
+     <value xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">http://delivery.dscebook.digiplug.com/delivery/1/221110f50a3e0501313a1f2dfedb930b/A_Duke_of_Her_Own.acsm</value>
+     <valueDataType xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">string</valueDataType>
+    </item>
+   </extendedAttributes>
+   <combinationProductLineItem xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xsi:type="soapenc:boolean">false</combinationProductLineItem>
+   <componentLineItemInfoArray xsi:type="ns1:LineItemInfoArray" xsi:nil="true"/>
+  </item>
+  <item xsi:type="ns1:LineItemInfo">
+   <lineItemID xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">12520403922</lineItemID>
+   <externalReferenceID xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+   <transactionDescription xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">Order Notification</transactionDescription>
+   <quantity xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:integer">1</quantity>
+   <preOrder xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xsi:type="soapenc:boolean">true</preOrder>
+   <product xmlns:ns90="http://integration.digitalriver.com/Common/1.0" xsi:type="ns90:ProductKey">
+    <productID xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">293877800</productID>
+    <externalReferenceID xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">9780062005366</externalReferenceID>
+    <companyID xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">harperco</companyID>
+    <locale xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">en_US</locale>
+   </product>
+   <productInfo xsi:type="ns1:ProductDataInfo">
+    <productDataID xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">5070968200</productDataID>
+    <mfrPartNumber xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">EC17589855D310ECE0430602390AB89E</mfrPartNumber>
+    <shipperPartNumber xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <sku xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">9780062005366</sku>
+    <name xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">A Kiss at Midnight</name>
+    <platform xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">eBook</platform>
+    <year xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <seats xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <companyID xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">harperco</companyID>
+    <exportCountry xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <manufactureCountry xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">US</manufactureCountry>
+    <harmonizeCode xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <eccn xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">EAR99</eccn>
+    <licenseException xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">AGR</licenseException>
+    <ccats xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <extendedAttributes xmlns:ns91="http://integration.digitalriver.com/Common/1.0" xsi:type="ns91:ExtendedAttributesInfoArray">
+     <item xsi:type="ns91:ExtendedAttributesInfo">
+      <name xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">platform</name>
+      <value xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">eBook</value>
+      <valueDataType xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">string</valueDataType>
+     </item>
+     <item xsi:type="ns91:ExtendedAttributesInfo">
+      <name xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">Format</name>
+      <value xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">DRM ebook</value>
+      <valueDataType xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">string</valueDataType>
+     </item>
+     <item xsi:type="ns91:ExtendedAttributesInfo">
+      <name xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">releaseDate</name>
+      <value xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">Tue Jul 27 00:00:00 CDT 2010</value>
+      <valueDataType xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">string</valueDataType>
+     </item>
+     <item xsi:type="ns91:ExtendedAttributesInfo">
+      <name xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">originalIsOrderable</name>
+      <value xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">true</value>
+      <valueDataType xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">string</valueDataType>
+     </item>
+     <item xsi:type="ns91:ExtendedAttributesInfo">
+      <name xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">ONIX</name>
+      <value xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">HarperCollins Publishers / 20140310 / Select Inclusive eBook Agency Master Version 1.0</value>
+      <valueDataType xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">string</valueDataType>
+     </item>
+     <item xsi:type="ns91:ExtendedAttributesInfo">
+      <name xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">Imprint</name>
+      <value xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">HarperCollins e-books</value>
+      <valueDataType xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">string</valueDataType>
+     </item>
+     <item xsi:type="ns91:ExtendedAttributesInfo">
+      <name xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">Author</name>
+      <value xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">Eloisa James</value>
+      <valueDataType xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">string</valueDataType>
+     </item>
+     <item xsi:type="ns91:ExtendedAttributesInfo">
+      <name xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">preorderEnabled</name>
+      <value xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">false</value>
+      <valueDataType xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">string</valueDataType>
+     </item>
+     <item xsi:type="ns91:ExtendedAttributesInfo">
+      <name xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">auditEmailRecipient</name>
+      <value xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">demo@digiplug.com</value>
+      <valueDataType xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">string</valueDataType>
+     </item>
+     <item xsi:type="ns91:ExtendedAttributesInfo">
+      <name xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">originalIsViewable</name>
+      <value xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">true</value>
+      <valueDataType xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">string</valueDataType>
+     </item>
+     <item xsi:type="ns91:ExtendedAttributesInfo">
+      <name xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">auditNumDays</name>
+      <value xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">3</value>
+      <valueDataType xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">string</valueDataType>
+     </item>
+    </extendedAttributes>
+   </productInfo>
+   <lineItemDigitalInfoList xsi:type="ns1:LineItemDigitalInfoArray"/>
+   <catalogID xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">18839800</catalogID>
+   <comments xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+   <shipToAddress xmlns:ns92="http://integration.digitalriver.com/Common/1.0" xsi:type="ns92:AddressInfo">
+    <addressID xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">100323317708</addressID>
+    <city xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">atlanta</city>
+    <countryA2 xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <country xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">US</country>
+    <countryName xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">United States</countryName>
+    <line1 xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">3752 quail hollow trail trail</line1>
+    <line2 xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <line3 xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <locationCode xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <name1 xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">susan</name1>
+    <name2 xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">whyte- guyton</name2>
+    <phoneNumber xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">770-349-9205</phoneNumber>
+    <postalCode xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">30039</postalCode>
+    <state xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">GA</state>
+    <email xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">guytos03@yahoo.com</email>
+    <faxPhone xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <companyName xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <phoneNumber2 xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <countyName xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <extendedAttributes xsi:type="ns92:ExtendedAttributesInfoArray"/>
+   </shipToAddress>
+   <shippingInstructions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+   <requestedShipDate xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:dateTime" xsi:nil="true"/>
+   <shippingMethodName xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+   <trackingUrl xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:anyURI" xsi:nil="true"/>
+   <trackingNumber xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+   <pricing xsi:type="ns1:LineItemPriceInfo">
+    <unitPrice xmlns:ns93="http://integration.digitalriver.com/Common/1.0" xsi:type="ns93:MoneyInfo">
+     <currencyCode xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">USD</currencyCode>
+     <amount xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:decimal">4.99</amount>
+    </unitPrice>
+    <listPrice xmlns:ns94="http://integration.digitalriver.com/Common/1.0" xsi:type="ns94:MoneyInfo">
+     <currencyCode xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">USD</currencyCode>
+     <amount xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:decimal">4.99</amount>
+    </listPrice>
+    <distributorPrice xmlns:ns95="http://integration.digitalriver.com/Common/1.0" xsi:type="ns95:MoneyInfo" xsi:nil="true"/>
+    <pricePerQty xmlns:ns96="http://integration.digitalriver.com/Common/1.0" xsi:type="ns96:MoneyInfo">
+     <currencyCode xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">USD</currencyCode>
+     <amount xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:decimal">4.99</amount>
+    </pricePerQty>
+    <tax xmlns:ns97="http://integration.digitalriver.com/Common/1.0" xsi:type="ns97:MoneyInfo">
+     <currencyCode xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">USD</currencyCode>
+     <amount xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:decimal">0.00</amount>
+    </tax>
+    <productTax xmlns:ns98="http://integration.digitalriver.com/Common/1.0" xsi:type="ns98:MoneyInfo">
+     <currencyCode xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">USD</currencyCode>
+     <amount xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:decimal">0.00</amount>
+    </productTax>
+    <shippingTax xmlns:ns99="http://integration.digitalriver.com/Common/1.0" xsi:type="ns99:MoneyInfo">
+     <currencyCode xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">USD</currencyCode>
+     <amount xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:decimal">0.00</amount>
+    </shippingTax>
+    <shipping xmlns:ns100="http://integration.digitalriver.com/Common/1.0" xsi:type="ns100:MoneyInfo" xsi:nil="true"/>
+    <handling xmlns:ns101="http://integration.digitalriver.com/Common/1.0" xsi:type="ns101:MoneyInfo">
+     <currencyCode xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">USD</currencyCode>
+     <amount xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:decimal">0.00</amount>
+    </handling>
+    <incentive xmlns:ns102="http://integration.digitalriver.com/Common/1.0" xsi:type="ns102:MoneyInfo" xsi:nil="true"/>
+    <reqLevelIncentivePerQuantity xmlns:ns103="http://integration.digitalriver.com/Common/1.0" xsi:type="ns103:MoneyInfo" xsi:nil="true"/>
+    <lineItemLevelIncentivePerQuantity xmlns:ns104="http://integration.digitalriver.com/Common/1.0" xsi:type="ns104:MoneyInfo" xsi:nil="true"/>
+    <taxableFees xmlns:ns105="http://integration.digitalriver.com/Common/1.0" xsi:type="ns105:MoneyInfo" xsi:nil="true"/>
+    <taxOnTaxableFees xmlns:ns106="http://integration.digitalriver.com/Common/1.0" xsi:type="ns106:MoneyInfo" xsi:nil="true"/>
+    <nonTaxableFees xmlns:ns107="http://integration.digitalriver.com/Common/1.0" xsi:type="ns107:MoneyInfo" xsi:nil="true"/>
+    <recurringFee xmlns:ns108="http://integration.digitalriver.com/Common/1.0" xsi:type="ns108:MoneyInfo" xsi:nil="true"/>
+    <shippingBeforeDiscount xmlns:ns109="http://integration.digitalriver.com/Common/1.0" xsi:type="ns109:MoneyInfo" xsi:nil="true"/>
+    <lineItemFees xsi:type="ns1:FeePriceInfoArray"/>
+   </pricing>
+   <lineItemTaxList xsi:type="ns1:LineItemTaxListInfo">
+    <typeOfTax xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <primaryCurrencyCode xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">USD</primaryCurrencyCode>
+    <federalTaxType xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <territoryTaxType xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <stateTaxType xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">US</stateTaxType>
+    <countyTaxType xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">US</countyTaxType>
+    <cityTaxType xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <secondaryStateTaxType xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <secondaryCountyTaxType xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <secondaryCityTaxType xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <districtTaxType xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <zeroRateIndicator xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <jurisdictionType xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <countryOfJurisdictionCode xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <territoryOfJurisdictionCode xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <stateOfJurisdiction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">GEORGIA</stateOfJurisdiction>
+    <countyCodeOfJurisdiction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">DEKALB</countyCodeOfJurisdiction>
+    <countyNameOfJurisdiction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">GA - DEKALB METROPOLITAN A</countyNameOfJurisdiction>
+    <cityOfJurisdiction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <zipCodeOfJurisdiction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">30039</zipCodeOfJurisdiction>
+    <zipCodeExtensionOfJurisdiction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <geoCodeOfJurisdiction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <secStateOfJurisdiction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <secCountyCodeOfJurisdiction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <secCountyNameOfJurisdiction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <secCityOfJurisdiction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <secZipCodeOfJurisdiction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <secZipCodeExtensionOfJurisdiction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <secGeoCodeOfJurisdiction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <calculatedTaxAmountTotal xmlns:ns110="http://integration.digitalriver.com/Common/1.0" xsi:type="ns110:MoneyInfo">
+     <currencyCode xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">USD</currencyCode>
+     <amount xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:decimal">0.00</amount>
+    </calculatedTaxAmountTotal>
+    <calculatedTaxAmountCountry xmlns:ns111="http://integration.digitalriver.com/Common/1.0" xsi:type="ns111:MoneyInfo" xsi:nil="true"/>
+    <calculatedTaxAmountTerritory xmlns:ns112="http://integration.digitalriver.com/Common/1.0" xsi:type="ns112:MoneyInfo" xsi:nil="true"/>
+    <calculatedTaxAmountState xmlns:ns113="http://integration.digitalriver.com/Common/1.0" xsi:type="ns113:MoneyInfo">
+     <currencyCode xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">USD</currencyCode>
+     <amount xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:decimal">0.00</amount>
+    </calculatedTaxAmountState>
+    <calculatedTaxAmountCounty xmlns:ns114="http://integration.digitalriver.com/Common/1.0" xsi:type="ns114:MoneyInfo">
+     <currencyCode xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">USD</currencyCode>
+     <amount xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:decimal">0.00</amount>
+    </calculatedTaxAmountCounty>
+    <calculatedTaxAmountCity xmlns:ns115="http://integration.digitalriver.com/Common/1.0" xsi:type="ns115:MoneyInfo" xsi:nil="true"/>
+    <calculatedTaxAmountSecState xmlns:ns116="http://integration.digitalriver.com/Common/1.0" xsi:type="ns116:MoneyInfo" xsi:nil="true"/>
+    <calculatedTaxAmountSecCounty xmlns:ns117="http://integration.digitalriver.com/Common/1.0" xsi:type="ns117:MoneyInfo" xsi:nil="true"/>
+    <calculatedTaxAmountSecCity xmlns:ns118="http://integration.digitalriver.com/Common/1.0" xsi:type="ns118:MoneyInfo" xsi:nil="true"/>
+    <calculatedTaxAmountDistrict xmlns:ns119="http://integration.digitalriver.com/Common/1.0" xsi:type="ns119:MoneyInfo" xsi:nil="true"/>
+    <calculatedTaxAmountPis xmlns:ns120="http://integration.digitalriver.com/Common/1.0" xsi:type="ns120:MoneyInfo" xsi:nil="true"/>
+    <calculatedTaxAmountCofins xmlns:ns121="http://integration.digitalriver.com/Common/1.0" xsi:type="ns121:MoneyInfo" xsi:nil="true"/>
+    <calculatedTaxAmountCide xmlns:ns122="http://integration.digitalriver.com/Common/1.0" xsi:type="ns122:MoneyInfo" xsi:nil="true"/>
+    <calculatedTaxAmountIss xmlns:ns123="http://integration.digitalriver.com/Common/1.0" xsi:type="ns123:MoneyInfo" xsi:nil="true"/>
+    <calculatedTaxAmountIrrf xmlns:ns124="http://integration.digitalriver.com/Common/1.0" xsi:type="ns124:MoneyInfo" xsi:nil="true"/>
+    <sellerVatNumber xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <buyerVatNumber xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <commodityCode xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">55111502.120</commodityCode>
+    <taxCompanyID xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">HRPR_CLNS</taxCompanyID>
+    <stateTaxRate xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:decimal">0.0</stateTaxRate>
+    <secStateTaxRate xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:decimal">0.0</secStateTaxRate>
+    <countyTaxRate xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:decimal">0.0</countyTaxRate>
+    <secCountyTaxRate xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:decimal">0.0</secCountyTaxRate>
+    <cityTaxRate xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:decimal">0.0</cityTaxRate>
+    <secCityTaxRate xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:decimal">0.0</secCityTaxRate>
+    <countryTaxRate xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:decimal">0.0</countryTaxRate>
+    <taxDate xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:dateTime">2014-05-22T03:54:37.056Z</taxDate>
+   </lineItemTaxList>
+   <taxExempt xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xsi:type="soapenc:boolean">false</taxExempt>
+   <offers xsi:type="ns1:OfferInfoArray" xsi:nil="true"/>
+   <currentLineItemState xsi:type="ns1:LineItemState">
+    <Open xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <InProcess xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">InProcess</InProcess>
+    <Shipped xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <Completed xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <Preordered xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <Refunded xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <Canceled xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+   </currentLineItemState>
+   <fulfillmentInfo xsi:type="ns1:FulfillmentInfo" xsi:nil="true"/>
+   <replacementInfo xsi:type="ns1:ReplacementInfo" xsi:nil="true"/>
+   <downloads xsi:type="ns1:Downloads" xsi:nil="true"/>
+   <extendedAttributes xmlns:ns125="http://integration.digitalriver.com/Common/1.0" xsi:type="ns125:ExtendedAttributesInfoArray">
+    <item xsi:type="ns125:ExtendedAttributesInfo">
+     <name xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">hcstoreID</name>
+     <value xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">Avon</value>
+     <valueDataType xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">string</valueDataType>
+    </item>
+    <item xsi:type="ns125:ExtendedAttributesInfo">
+     <name xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">DGPDownloadURL</name>
+     <value xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">http://delivery.dscebook.digiplug.com/delivery/1/2211127e0a3e0501313a1f2d57bd291b/A_Kiss_at_Midnight.acsm</value>
+     <valueDataType xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">string</valueDataType>
+    </item>
+   </extendedAttributes>
+   <combinationProductLineItem xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xsi:type="soapenc:boolean">false</combinationProductLineItem>
+   <componentLineItemInfoArray xsi:type="ns1:LineItemInfoArray" xsi:nil="true"/>
+  </item>
+  <item xsi:type="ns1:LineItemInfo">
+   <lineItemID xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">12520432422</lineItemID>
+   <externalReferenceID xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+   <transactionDescription xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">Order Notification</transactionDescription>
+   <quantity xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:integer">1</quantity>
+   <preOrder xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xsi:type="soapenc:boolean">true</preOrder>
+   <product xmlns:ns126="http://integration.digitalriver.com/Common/1.0" xsi:type="ns126:ProductKey">
+    <productID xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">293480400</productID>
+    <externalReferenceID xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">9780061795947</externalReferenceID>
+    <companyID xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">harperco</companyID>
+    <locale xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">en_US</locale>
+   </product>
+   <productInfo xsi:type="ns1:ProductDataInfo">
+    <productDataID xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">5247821500</productDataID>
+    <mfrPartNumber xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">EC175B520E441143E0430602390A65A2</mfrPartNumber>
+    <shipperPartNumber xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <sku xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">9780061795947</sku>
+    <name xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">A Perfect Groom</name>
+    <platform xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">eBook</platform>
+    <year xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <seats xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <companyID xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">harperco</companyID>
+    <exportCountry xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <manufactureCountry xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">US</manufactureCountry>
+    <harmonizeCode xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <eccn xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">EAR99</eccn>
+    <licenseException xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">AGR</licenseException>
+    <ccats xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <extendedAttributes xmlns:ns127="http://integration.digitalriver.com/Common/1.0" xsi:type="ns127:ExtendedAttributesInfoArray">
+     <item xsi:type="ns127:ExtendedAttributesInfo">
+      <name xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">platform</name>
+      <value xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">eBook</value>
+      <valueDataType xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">string</valueDataType>
+     </item>
+     <item xsi:type="ns127:ExtendedAttributesInfo">
+      <name xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">Format</name>
+      <value xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">DRM ebook</value>
+      <valueDataType xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">string</valueDataType>
+     </item>
+     <item xsi:type="ns127:ExtendedAttributesInfo">
+      <name xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">releaseDate</name>
+      <value xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">Tue Oct 13 00:00:00 CDT 2009</value>
+      <valueDataType xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">string</valueDataType>
+     </item>
+     <item xsi:type="ns127:ExtendedAttributesInfo">
+      <name xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">originalIsOrderable</name>
+      <value xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">true</value>
+      <valueDataType xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">string</valueDataType>
+     </item>
+     <item xsi:type="ns127:ExtendedAttributesInfo">
+      <name xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">ONIX</name>
+      <value xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">HarperCollins Publishers / 20140512 / Select Inclusive eBook Agency Master Version 1.0</value>
+      <valueDataType xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">string</valueDataType>
+     </item>
+     <item xsi:type="ns127:ExtendedAttributesInfo">
+      <name xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">Imprint</name>
+      <value xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">HarperCollins e-books</value>
+      <valueDataType xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">string</valueDataType>
+     </item>
+     <item xsi:type="ns127:ExtendedAttributesInfo">
+      <name xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">Author</name>
+      <value xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">Samantha James</value>
+      <valueDataType xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">string</valueDataType>
+     </item>
+     <item xsi:type="ns127:ExtendedAttributesInfo">
+      <name xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">preorderEnabled</name>
+      <value xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">false</value>
+      <valueDataType xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">string</valueDataType>
+     </item>
+     <item xsi:type="ns127:ExtendedAttributesInfo">
+      <name xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">auditEmailRecipient</name>
+      <value xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">demo@digiplug.com</value>
+      <valueDataType xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">string</valueDataType>
+     </item>
+     <item xsi:type="ns127:ExtendedAttributesInfo">
+      <name xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">originalIsViewable</name>
+      <value xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">true</value>
+      <valueDataType xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">string</valueDataType>
+     </item>
+     <item xsi:type="ns127:ExtendedAttributesInfo">
+      <name xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">auditNumDays</name>
+      <value xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">3</value>
+      <valueDataType xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">string</valueDataType>
+     </item>
+    </extendedAttributes>
+   </productInfo>
+   <lineItemDigitalInfoList xsi:type="ns1:LineItemDigitalInfoArray"/>
+   <catalogID xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">18839800</catalogID>
+   <comments xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+   <shipToAddress xmlns:ns128="http://integration.digitalriver.com/Common/1.0" xsi:type="ns128:AddressInfo">
+    <addressID xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">100323317708</addressID>
+    <city xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">atlanta</city>
+    <countryA2 xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <country xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">US</country>
+    <countryName xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">United States</countryName>
+    <line1 xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">3752 quail hollow trail trail</line1>
+    <line2 xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <line3 xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <locationCode xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <name1 xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">susan</name1>
+    <name2 xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">whyte- guyton</name2>
+    <phoneNumber xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">770-349-9205</phoneNumber>
+    <postalCode xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">30039</postalCode>
+    <state xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">GA</state>
+    <email xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">guytos03@yahoo.com</email>
+    <faxPhone xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <companyName xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <phoneNumber2 xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <countyName xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <extendedAttributes xsi:type="ns128:ExtendedAttributesInfoArray"/>
+   </shipToAddress>
+   <shippingInstructions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+   <requestedShipDate xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:dateTime" xsi:nil="true"/>
+   <shippingMethodName xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+   <trackingUrl xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:anyURI" xsi:nil="true"/>
+   <trackingNumber xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+   <pricing xsi:type="ns1:LineItemPriceInfo">
+    <unitPrice xmlns:ns129="http://integration.digitalriver.com/Common/1.0" xsi:type="ns129:MoneyInfo">
+     <currencyCode xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">USD</currencyCode>
+     <amount xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:decimal">4.99</amount>
+    </unitPrice>
+    <listPrice xmlns:ns130="http://integration.digitalriver.com/Common/1.0" xsi:type="ns130:MoneyInfo">
+     <currencyCode xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">USD</currencyCode>
+     <amount xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:decimal">4.99</amount>
+    </listPrice>
+    <distributorPrice xmlns:ns131="http://integration.digitalriver.com/Common/1.0" xsi:type="ns131:MoneyInfo" xsi:nil="true"/>
+    <pricePerQty xmlns:ns132="http://integration.digitalriver.com/Common/1.0" xsi:type="ns132:MoneyInfo">
+     <currencyCode xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">USD</currencyCode>
+     <amount xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:decimal">4.99</amount>
+    </pricePerQty>
+    <tax xmlns:ns133="http://integration.digitalriver.com/Common/1.0" xsi:type="ns133:MoneyInfo">
+     <currencyCode xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">USD</currencyCode>
+     <amount xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:decimal">0.00</amount>
+    </tax>
+    <productTax xmlns:ns134="http://integration.digitalriver.com/Common/1.0" xsi:type="ns134:MoneyInfo">
+     <currencyCode xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">USD</currencyCode>
+     <amount xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:decimal">0.00</amount>
+    </productTax>
+    <shippingTax xmlns:ns135="http://integration.digitalriver.com/Common/1.0" xsi:type="ns135:MoneyInfo">
+     <currencyCode xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">USD</currencyCode>
+     <amount xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:decimal">0.00</amount>
+    </shippingTax>
+    <shipping xmlns:ns136="http://integration.digitalriver.com/Common/1.0" xsi:type="ns136:MoneyInfo" xsi:nil="true"/>
+    <handling xmlns:ns137="http://integration.digitalriver.com/Common/1.0" xsi:type="ns137:MoneyInfo">
+     <currencyCode xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">USD</currencyCode>
+     <amount xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:decimal">0.00</amount>
+    </handling>
+    <incentive xmlns:ns138="http://integration.digitalriver.com/Common/1.0" xsi:type="ns138:MoneyInfo" xsi:nil="true"/>
+    <reqLevelIncentivePerQuantity xmlns:ns139="http://integration.digitalriver.com/Common/1.0" xsi:type="ns139:MoneyInfo" xsi:nil="true"/>
+    <lineItemLevelIncentivePerQuantity xmlns:ns140="http://integration.digitalriver.com/Common/1.0" xsi:type="ns140:MoneyInfo" xsi:nil="true"/>
+    <taxableFees xmlns:ns141="http://integration.digitalriver.com/Common/1.0" xsi:type="ns141:MoneyInfo" xsi:nil="true"/>
+    <taxOnTaxableFees xmlns:ns142="http://integration.digitalriver.com/Common/1.0" xsi:type="ns142:MoneyInfo" xsi:nil="true"/>
+    <nonTaxableFees xmlns:ns143="http://integration.digitalriver.com/Common/1.0" xsi:type="ns143:MoneyInfo" xsi:nil="true"/>
+    <recurringFee xmlns:ns144="http://integration.digitalriver.com/Common/1.0" xsi:type="ns144:MoneyInfo" xsi:nil="true"/>
+    <shippingBeforeDiscount xmlns:ns145="http://integration.digitalriver.com/Common/1.0" xsi:type="ns145:MoneyInfo" xsi:nil="true"/>
+    <lineItemFees xsi:type="ns1:FeePriceInfoArray"/>
+   </pricing>
+   <lineItemTaxList xsi:type="ns1:LineItemTaxListInfo">
+    <typeOfTax xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <primaryCurrencyCode xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">USD</primaryCurrencyCode>
+    <federalTaxType xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <territoryTaxType xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <stateTaxType xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">US</stateTaxType>
+    <countyTaxType xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">US</countyTaxType>
+    <cityTaxType xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <secondaryStateTaxType xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <secondaryCountyTaxType xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <secondaryCityTaxType xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <districtTaxType xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <zeroRateIndicator xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <jurisdictionType xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <countryOfJurisdictionCode xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <territoryOfJurisdictionCode xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <stateOfJurisdiction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">GEORGIA</stateOfJurisdiction>
+    <countyCodeOfJurisdiction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">DEKALB</countyCodeOfJurisdiction>
+    <countyNameOfJurisdiction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">GA - DEKALB METROPOLITAN A</countyNameOfJurisdiction>
+    <cityOfJurisdiction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <zipCodeOfJurisdiction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">30039</zipCodeOfJurisdiction>
+    <zipCodeExtensionOfJurisdiction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <geoCodeOfJurisdiction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <secStateOfJurisdiction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <secCountyCodeOfJurisdiction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <secCountyNameOfJurisdiction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <secCityOfJurisdiction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <secZipCodeOfJurisdiction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <secZipCodeExtensionOfJurisdiction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <secGeoCodeOfJurisdiction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <calculatedTaxAmountTotal xmlns:ns146="http://integration.digitalriver.com/Common/1.0" xsi:type="ns146:MoneyInfo">
+     <currencyCode xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">USD</currencyCode>
+     <amount xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:decimal">0.00</amount>
+    </calculatedTaxAmountTotal>
+    <calculatedTaxAmountCountry xmlns:ns147="http://integration.digitalriver.com/Common/1.0" xsi:type="ns147:MoneyInfo" xsi:nil="true"/>
+    <calculatedTaxAmountTerritory xmlns:ns148="http://integration.digitalriver.com/Common/1.0" xsi:type="ns148:MoneyInfo" xsi:nil="true"/>
+    <calculatedTaxAmountState xmlns:ns149="http://integration.digitalriver.com/Common/1.0" xsi:type="ns149:MoneyInfo">
+     <currencyCode xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">USD</currencyCode>
+     <amount xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:decimal">0.00</amount>
+    </calculatedTaxAmountState>
+    <calculatedTaxAmountCounty xmlns:ns150="http://integration.digitalriver.com/Common/1.0" xsi:type="ns150:MoneyInfo">
+     <currencyCode xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">USD</currencyCode>
+     <amount xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:decimal">0.00</amount>
+    </calculatedTaxAmountCounty>
+    <calculatedTaxAmountCity xmlns:ns151="http://integration.digitalriver.com/Common/1.0" xsi:type="ns151:MoneyInfo" xsi:nil="true"/>
+    <calculatedTaxAmountSecState xmlns:ns152="http://integration.digitalriver.com/Common/1.0" xsi:type="ns152:MoneyInfo" xsi:nil="true"/>
+    <calculatedTaxAmountSecCounty xmlns:ns153="http://integration.digitalriver.com/Common/1.0" xsi:type="ns153:MoneyInfo" xsi:nil="true"/>
+    <calculatedTaxAmountSecCity xmlns:ns154="http://integration.digitalriver.com/Common/1.0" xsi:type="ns154:MoneyInfo" xsi:nil="true"/>
+    <calculatedTaxAmountDistrict xmlns:ns155="http://integration.digitalriver.com/Common/1.0" xsi:type="ns155:MoneyInfo" xsi:nil="true"/>
+    <calculatedTaxAmountPis xmlns:ns156="http://integration.digitalriver.com/Common/1.0" xsi:type="ns156:MoneyInfo" xsi:nil="true"/>
+    <calculatedTaxAmountCofins xmlns:ns157="http://integration.digitalriver.com/Common/1.0" xsi:type="ns157:MoneyInfo" xsi:nil="true"/>
+    <calculatedTaxAmountCide xmlns:ns158="http://integration.digitalriver.com/Common/1.0" xsi:type="ns158:MoneyInfo" xsi:nil="true"/>
+    <calculatedTaxAmountIss xmlns:ns159="http://integration.digitalriver.com/Common/1.0" xsi:type="ns159:MoneyInfo" xsi:nil="true"/>
+    <calculatedTaxAmountIrrf xmlns:ns160="http://integration.digitalriver.com/Common/1.0" xsi:type="ns160:MoneyInfo" xsi:nil="true"/>
+    <sellerVatNumber xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <buyerVatNumber xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <commodityCode xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">55111502.120</commodityCode>
+    <taxCompanyID xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">HRPR_CLNS</taxCompanyID>
+    <stateTaxRate xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:decimal">0.0</stateTaxRate>
+    <secStateTaxRate xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:decimal">0.0</secStateTaxRate>
+    <countyTaxRate xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:decimal">0.0</countyTaxRate>
+    <secCountyTaxRate xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:decimal">0.0</secCountyTaxRate>
+    <cityTaxRate xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:decimal">0.0</cityTaxRate>
+    <secCityTaxRate xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:decimal">0.0</secCityTaxRate>
+    <countryTaxRate xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:decimal">0.0</countryTaxRate>
+    <taxDate xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:dateTime">2014-05-22T03:54:37.057Z</taxDate>
+   </lineItemTaxList>
+   <taxExempt xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xsi:type="soapenc:boolean">false</taxExempt>
+   <offers xsi:type="ns1:OfferInfoArray" xsi:nil="true"/>
+   <currentLineItemState xsi:type="ns1:LineItemState">
+    <Open xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <InProcess xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">InProcess</InProcess>
+    <Shipped xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <Completed xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <Preordered xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <Refunded xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <Canceled xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+   </currentLineItemState>
+   <fulfillmentInfo xsi:type="ns1:FulfillmentInfo" xsi:nil="true"/>
+   <replacementInfo xsi:type="ns1:ReplacementInfo" xsi:nil="true"/>
+   <downloads xsi:type="ns1:Downloads" xsi:nil="true"/>
+   <extendedAttributes xmlns:ns161="http://integration.digitalriver.com/Common/1.0" xsi:type="ns161:ExtendedAttributesInfoArray">
+    <item xsi:type="ns161:ExtendedAttributesInfo">
+     <name xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">hcstoreID</name>
+     <value xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">Avon</value>
+     <valueDataType xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">string</valueDataType>
+    </item>
+    <item xsi:type="ns161:ExtendedAttributesInfo">
+     <name xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">DGPDownloadURL</name>
+     <value xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">http://delivery.dscebook.digiplug.com/delivery/1/221114320a3e0501313a1f2d6a9308c1/A_Perfect_Groom.acsm</value>
+     <valueDataType xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">string</valueDataType>
+    </item>
+   </extendedAttributes>
+   <combinationProductLineItem xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xsi:type="soapenc:boolean">false</combinationProductLineItem>
+   <componentLineItemInfoArray xsi:type="ns1:LineItemInfoArray" xsi:nil="true"/>
+  </item>
+  <item xsi:type="ns1:LineItemInfo">
+   <lineItemID xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">12520437322</lineItemID>
+   <externalReferenceID xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+   <transactionDescription xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">Order Notification</transactionDescription>
+   <quantity xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:integer">1</quantity>
+   <preOrder xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xsi:type="soapenc:boolean">true</preOrder>
+   <product xmlns:ns162="http://integration.digitalriver.com/Common/1.0" xsi:type="ns162:ProductKey">
+    <productID xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">293463200</productID>
+    <externalReferenceID xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">9780061762710</externalReferenceID>
+    <companyID xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">harperco</companyID>
+    <locale xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">en_US</locale>
+   </product>
+   <productInfo xsi:type="ns1:ProductDataInfo">
+    <productDataID xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">5237534800</productDataID>
+    <mfrPartNumber xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">EC175957FD0B1110E0430602390AEC81</mfrPartNumber>
+    <shipperPartNumber xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <sku xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">9780061762710</sku>
+    <name xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">A Rake's Vow</name>
+    <platform xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">eBook</platform>
+    <year xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <seats xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <companyID xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">harperco</companyID>
+    <exportCountry xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <manufactureCountry xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">US</manufactureCountry>
+    <harmonizeCode xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <eccn xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">EAR99</eccn>
+    <licenseException xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">AGR</licenseException>
+    <ccats xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <extendedAttributes xmlns:ns163="http://integration.digitalriver.com/Common/1.0" xsi:type="ns163:ExtendedAttributesInfoArray">
+     <item xsi:type="ns163:ExtendedAttributesInfo">
+      <name xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">platform</name>
+      <value xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">eBook</value>
+      <valueDataType xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">string</valueDataType>
+     </item>
+     <item xsi:type="ns163:ExtendedAttributesInfo">
+      <name xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">Format</name>
+      <value xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">DRM ebook</value>
+      <valueDataType xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">string</valueDataType>
+     </item>
+     <item xsi:type="ns163:ExtendedAttributesInfo">
+      <name xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">releaseDate</name>
+      <value xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">Tue Oct 13 00:00:00 CDT 2009</value>
+      <valueDataType xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">string</valueDataType>
+     </item>
+     <item xsi:type="ns163:ExtendedAttributesInfo">
+      <name xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">originalIsOrderable</name>
+      <value xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">true</value>
+      <valueDataType xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">string</valueDataType>
+     </item>
+     <item xsi:type="ns163:ExtendedAttributesInfo">
+      <name xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">ONIX</name>
+      <value xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">HarperCollins Publishers / 20140505 / Select Inclusive eBook Agency Master Version 1.0</value>
+      <valueDataType xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">string</valueDataType>
+     </item>
+     <item xsi:type="ns163:ExtendedAttributesInfo">
+      <name xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">Imprint</name>
+      <value xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">HarperCollins e-books</value>
+      <valueDataType xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">string</valueDataType>
+     </item>
+     <item xsi:type="ns163:ExtendedAttributesInfo">
+      <name xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">Author</name>
+      <value xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">Stephanie Laurens</value>
+      <valueDataType xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">string</valueDataType>
+     </item>
+     <item xsi:type="ns163:ExtendedAttributesInfo">
+      <name xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">preorderEnabled</name>
+      <value xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">false</value>
+      <valueDataType xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">string</valueDataType>
+     </item>
+     <item xsi:type="ns163:ExtendedAttributesInfo">
+      <name xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">auditEmailRecipient</name>
+      <value xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">demo@digiplug.com</value>
+      <valueDataType xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">string</valueDataType>
+     </item>
+     <item xsi:type="ns163:ExtendedAttributesInfo">
+      <name xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">originalIsViewable</name>
+      <value xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">true</value>
+      <valueDataType xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">string</valueDataType>
+     </item>
+     <item xsi:type="ns163:ExtendedAttributesInfo">
+      <name xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">auditNumDays</name>
+      <value xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">3</value>
+      <valueDataType xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">string</valueDataType>
+     </item>
+    </extendedAttributes>
+   </productInfo>
+   <lineItemDigitalInfoList xsi:type="ns1:LineItemDigitalInfoArray"/>
+   <catalogID xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">18839800</catalogID>
+   <comments xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+   <shipToAddress xmlns:ns164="http://integration.digitalriver.com/Common/1.0" xsi:type="ns164:AddressInfo">
+    <addressID xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">100323317708</addressID>
+    <city xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">atlanta</city>
+    <countryA2 xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <country xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">US</country>
+    <countryName xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">United States</countryName>
+    <line1 xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">3752 quail hollow trail trail</line1>
+    <line2 xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <line3 xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <locationCode xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <name1 xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">susan</name1>
+    <name2 xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">whyte- guyton</name2>
+    <phoneNumber xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">770-349-9205</phoneNumber>
+    <postalCode xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">30039</postalCode>
+    <state xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">GA</state>
+    <email xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">guytos03@yahoo.com</email>
+    <faxPhone xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <companyName xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <phoneNumber2 xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <countyName xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <extendedAttributes xsi:type="ns164:ExtendedAttributesInfoArray"/>
+   </shipToAddress>
+   <shippingInstructions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+   <requestedShipDate xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:dateTime" xsi:nil="true"/>
+   <shippingMethodName xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+   <trackingUrl xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:anyURI" xsi:nil="true"/>
+   <trackingNumber xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+   <pricing xsi:type="ns1:LineItemPriceInfo">
+    <unitPrice xmlns:ns165="http://integration.digitalriver.com/Common/1.0" xsi:type="ns165:MoneyInfo">
+     <currencyCode xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">USD</currencyCode>
+     <amount xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:decimal">7.99</amount>
+    </unitPrice>
+    <listPrice xmlns:ns166="http://integration.digitalriver.com/Common/1.0" xsi:type="ns166:MoneyInfo">
+     <currencyCode xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">USD</currencyCode>
+     <amount xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:decimal">7.99</amount>
+    </listPrice>
+    <distributorPrice xmlns:ns167="http://integration.digitalriver.com/Common/1.0" xsi:type="ns167:MoneyInfo" xsi:nil="true"/>
+    <pricePerQty xmlns:ns168="http://integration.digitalriver.com/Common/1.0" xsi:type="ns168:MoneyInfo">
+     <currencyCode xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">USD</currencyCode>
+     <amount xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:decimal">7.99</amount>
+    </pricePerQty>
+    <tax xmlns:ns169="http://integration.digitalriver.com/Common/1.0" xsi:type="ns169:MoneyInfo">
+     <currencyCode xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">USD</currencyCode>
+     <amount xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:decimal">0.00</amount>
+    </tax>
+    <productTax xmlns:ns170="http://integration.digitalriver.com/Common/1.0" xsi:type="ns170:MoneyInfo">
+     <currencyCode xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">USD</currencyCode>
+     <amount xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:decimal">0.00</amount>
+    </productTax>
+    <shippingTax xmlns:ns171="http://integration.digitalriver.com/Common/1.0" xsi:type="ns171:MoneyInfo">
+     <currencyCode xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">USD</currencyCode>
+     <amount xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:decimal">0.00</amount>
+    </shippingTax>
+    <shipping xmlns:ns172="http://integration.digitalriver.com/Common/1.0" xsi:type="ns172:MoneyInfo" xsi:nil="true"/>
+    <handling xmlns:ns173="http://integration.digitalriver.com/Common/1.0" xsi:type="ns173:MoneyInfo">
+     <currencyCode xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">USD</currencyCode>
+     <amount xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:decimal">0.00</amount>
+    </handling>
+    <incentive xmlns:ns174="http://integration.digitalriver.com/Common/1.0" xsi:type="ns174:MoneyInfo" xsi:nil="true"/>
+    <reqLevelIncentivePerQuantity xmlns:ns175="http://integration.digitalriver.com/Common/1.0" xsi:type="ns175:MoneyInfo" xsi:nil="true"/>
+    <lineItemLevelIncentivePerQuantity xmlns:ns176="http://integration.digitalriver.com/Common/1.0" xsi:type="ns176:MoneyInfo" xsi:nil="true"/>
+    <taxableFees xmlns:ns177="http://integration.digitalriver.com/Common/1.0" xsi:type="ns177:MoneyInfo" xsi:nil="true"/>
+    <taxOnTaxableFees xmlns:ns178="http://integration.digitalriver.com/Common/1.0" xsi:type="ns178:MoneyInfo" xsi:nil="true"/>
+    <nonTaxableFees xmlns:ns179="http://integration.digitalriver.com/Common/1.0" xsi:type="ns179:MoneyInfo" xsi:nil="true"/>
+    <recurringFee xmlns:ns180="http://integration.digitalriver.com/Common/1.0" xsi:type="ns180:MoneyInfo" xsi:nil="true"/>
+    <shippingBeforeDiscount xmlns:ns181="http://integration.digitalriver.com/Common/1.0" xsi:type="ns181:MoneyInfo" xsi:nil="true"/>
+    <lineItemFees xsi:type="ns1:FeePriceInfoArray"/>
+   </pricing>
+   <lineItemTaxList xsi:type="ns1:LineItemTaxListInfo">
+    <typeOfTax xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <primaryCurrencyCode xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">USD</primaryCurrencyCode>
+    <federalTaxType xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <territoryTaxType xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <stateTaxType xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">US</stateTaxType>
+    <countyTaxType xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">US</countyTaxType>
+    <cityTaxType xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <secondaryStateTaxType xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <secondaryCountyTaxType xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <secondaryCityTaxType xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <districtTaxType xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <zeroRateIndicator xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <jurisdictionType xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <countryOfJurisdictionCode xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <territoryOfJurisdictionCode xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <stateOfJurisdiction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">GEORGIA</stateOfJurisdiction>
+    <countyCodeOfJurisdiction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">DEKALB</countyCodeOfJurisdiction>
+    <countyNameOfJurisdiction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">GA - DEKALB METROPOLITAN A</countyNameOfJurisdiction>
+    <cityOfJurisdiction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <zipCodeOfJurisdiction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">30039</zipCodeOfJurisdiction>
+    <zipCodeExtensionOfJurisdiction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <geoCodeOfJurisdiction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <secStateOfJurisdiction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <secCountyCodeOfJurisdiction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <secCountyNameOfJurisdiction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <secCityOfJurisdiction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <secZipCodeOfJurisdiction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <secZipCodeExtensionOfJurisdiction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <secGeoCodeOfJurisdiction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <calculatedTaxAmountTotal xmlns:ns182="http://integration.digitalriver.com/Common/1.0" xsi:type="ns182:MoneyInfo">
+     <currencyCode xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">USD</currencyCode>
+     <amount xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:decimal">0.00</amount>
+    </calculatedTaxAmountTotal>
+    <calculatedTaxAmountCountry xmlns:ns183="http://integration.digitalriver.com/Common/1.0" xsi:type="ns183:MoneyInfo" xsi:nil="true"/>
+    <calculatedTaxAmountTerritory xmlns:ns184="http://integration.digitalriver.com/Common/1.0" xsi:type="ns184:MoneyInfo" xsi:nil="true"/>
+    <calculatedTaxAmountState xmlns:ns185="http://integration.digitalriver.com/Common/1.0" xsi:type="ns185:MoneyInfo">
+     <currencyCode xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">USD</currencyCode>
+     <amount xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:decimal">0.00</amount>
+    </calculatedTaxAmountState>
+    <calculatedTaxAmountCounty xmlns:ns186="http://integration.digitalriver.com/Common/1.0" xsi:type="ns186:MoneyInfo">
+     <currencyCode xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">USD</currencyCode>
+     <amount xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:decimal">0.00</amount>
+    </calculatedTaxAmountCounty>
+    <calculatedTaxAmountCity xmlns:ns187="http://integration.digitalriver.com/Common/1.0" xsi:type="ns187:MoneyInfo" xsi:nil="true"/>
+    <calculatedTaxAmountSecState xmlns:ns188="http://integration.digitalriver.com/Common/1.0" xsi:type="ns188:MoneyInfo" xsi:nil="true"/>
+    <calculatedTaxAmountSecCounty xmlns:ns189="http://integration.digitalriver.com/Common/1.0" xsi:type="ns189:MoneyInfo" xsi:nil="true"/>
+    <calculatedTaxAmountSecCity xmlns:ns190="http://integration.digitalriver.com/Common/1.0" xsi:type="ns190:MoneyInfo" xsi:nil="true"/>
+    <calculatedTaxAmountDistrict xmlns:ns191="http://integration.digitalriver.com/Common/1.0" xsi:type="ns191:MoneyInfo" xsi:nil="true"/>
+    <calculatedTaxAmountPis xmlns:ns192="http://integration.digitalriver.com/Common/1.0" xsi:type="ns192:MoneyInfo" xsi:nil="true"/>
+    <calculatedTaxAmountCofins xmlns:ns193="http://integration.digitalriver.com/Common/1.0" xsi:type="ns193:MoneyInfo" xsi:nil="true"/>
+    <calculatedTaxAmountCide xmlns:ns194="http://integration.digitalriver.com/Common/1.0" xsi:type="ns194:MoneyInfo" xsi:nil="true"/>
+    <calculatedTaxAmountIss xmlns:ns195="http://integration.digitalriver.com/Common/1.0" xsi:type="ns195:MoneyInfo" xsi:nil="true"/>
+    <calculatedTaxAmountIrrf xmlns:ns196="http://integration.digitalriver.com/Common/1.0" xsi:type="ns196:MoneyInfo" xsi:nil="true"/>
+    <sellerVatNumber xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <buyerVatNumber xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <commodityCode xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">55111502.120</commodityCode>
+    <taxCompanyID xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">HRPR_CLNS</taxCompanyID>
+    <stateTaxRate xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:decimal">0.0</stateTaxRate>
+    <secStateTaxRate xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:decimal">0.0</secStateTaxRate>
+    <countyTaxRate xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:decimal">0.0</countyTaxRate>
+    <secCountyTaxRate xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:decimal">0.0</secCountyTaxRate>
+    <cityTaxRate xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:decimal">0.0</cityTaxRate>
+    <secCityTaxRate xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:decimal">0.0</secCityTaxRate>
+    <countryTaxRate xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:decimal">0.0</countryTaxRate>
+    <taxDate xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:dateTime">2014-05-22T03:54:37.057Z</taxDate>
+   </lineItemTaxList>
+   <taxExempt xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xsi:type="soapenc:boolean">false</taxExempt>
+   <offers xsi:type="ns1:OfferInfoArray" xsi:nil="true"/>
+   <currentLineItemState xsi:type="ns1:LineItemState">
+    <Open xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <InProcess xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">InProcess</InProcess>
+    <Shipped xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <Completed xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <Preordered xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <Refunded xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+    <Canceled xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+   </currentLineItemState>
+   <fulfillmentInfo xsi:type="ns1:FulfillmentInfo" xsi:nil="true"/>
+   <replacementInfo xsi:type="ns1:ReplacementInfo" xsi:nil="true"/>
+   <downloads xsi:type="ns1:Downloads" xsi:nil="true"/>
+   <extendedAttributes xmlns:ns197="http://integration.digitalriver.com/Common/1.0" xsi:type="ns197:ExtendedAttributesInfoArray">
+    <item xsi:type="ns197:ExtendedAttributesInfo">
+     <name xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">hcstoreID</name>
+     <value xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">Avon</value>
+     <valueDataType xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">string</valueDataType>
+    </item>
+    <item xsi:type="ns197:ExtendedAttributesInfo">
+     <name xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">DGPDownloadURL</name>
+     <value xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">http://delivery.dscebook.digiplug.com/delivery/1/221115d20a3e0501313a1f2dc3742863/A_Rake_s_Vow.acsm</value>
+     <valueDataType xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">string</valueDataType>
+    </item>
+   </extendedAttributes>
+   <combinationProductLineItem xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xsi:type="soapenc:boolean">false</combinationProductLineItem>
+   <componentLineItemInfoArray xsi:type="ns1:LineItemInfoArray" xsi:nil="true"/>
+  </item>
+ </lineItems>
+ <offers xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns1:OfferInfoArray" xsi:nil="true"/>
+ <programID xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+ <customerID xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">248317884008</customerID>
+ <userExternalReferenceID xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+ <loginID xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">guytos03@yahoo.com</loginID>
+<password>Winter14</password>
+ <themeID xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">36273000</themeID>
+ <locale xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">en_US</locale>
+ <optIn xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xsi:type="soapenc:boolean">true</optIn>
+ <testOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xsi:type="soapenc:boolean">false</testOrder>
+ <whereHeard xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+ <currencyCodeAlpha xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">USD</currencyCodeAlpha>
+ <currencyCodeNumeric xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">840</currencyCodeNumeric>
+ <taxExempt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xsi:type="soapenc:boolean">false</taxExempt>
+ <currentOrderState xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns1:RequisitionState">
+  <Open xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+  <Cancelled xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+  <PendingPayment xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+  <Complete xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+  <InProcess xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">REQUISITION_IN_PROCESS</InProcess>
+  <Dispute xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string" xsi:nil="true"/>
+ </currentOrderState>
+ <extendedAttributes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns198="http://integration.digitalriver.com/Common/1.0" xsi:type="ns198:ExtendedAttributesInfoArray">
+  <item xsi:type="ns198:ExtendedAttributesInfo">
+   <name xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">DPL_SCREENING_URL</name>
+   <value xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">http://compliance-c020.wipint.digitalriverws.net:8085/compliance/resource/screening/DC2-57494538</value>
+   <valueDataType xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">string</valueDataType>
+  </item>
+  <item xsi:type="ns198:ExtendedAttributesInfo">
+   <name xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">ShoppingCartPage</name>
+   <value xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">QuickBuyCartPage</value>
+   <valueDataType xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">string</valueDataType>
+  </item>
+  <item xsi:type="ns198:ExtendedAttributesInfo">
+   <name xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">APPLIED_TAX_RULE</name>
+   <value xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">GENERIC_ENTITY_TAX_RULE</value>
+   <valueDataType xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">string</valueDataType>
+  </item>
+  <item xsi:type="ns198:ExtendedAttributesInfo">
+   <name xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">DPLResult</name>
+   <value xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">Accept</value>
+   <valueDataType xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">string</valueDataType>
+  </item>
+  <item xsi:type="ns198:ExtendedAttributesInfo">
+   <name xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">DPL_SERVICE_PROVIDER</name>
+   <value xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">ComplianceService</value>
+   <valueDataType xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="xsd:string">string</valueDataType>
+  </item>
+ </extendedAttributes>
+</ns1:OrderInfo>
+
