@@ -57,7 +57,7 @@ class DROrderControllerController extends AbstractActionController
 		} else {
         	$content = $this->getRequest()->getContent();
 		}
-        $data = $this->getDecrypt($content, 'Vta49KVHOi5x^RNf', 'Vta49KVHOi5x^RNf');
+        $data = $this->getDecrypt($content, 'Vta49KVHOi5x????', 'Vta49KVHOi5x????');
 		$this->xmltext = trim($data, " \t\n\r\0\x0B" );
 		$last = strrchr($data, '>');
 		$slen = strlen($data);
