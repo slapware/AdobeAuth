@@ -4,7 +4,7 @@ Slap Registration model
 Introduction
 ------------
 This is the multi purpose Registration system. Built for use with the Digital
-River orders and expanded for other uses. Check if user is already registered and
+River orders in real time and expanded for other uses. Check if user is already registered and
 updates order information iin database.
 
 Unit Testing.
